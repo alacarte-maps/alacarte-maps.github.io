@@ -1,0 +1,55 @@
+/* applied coloring from journal bootswatch theme to custom navbar from bootblog */
+.blog-masthead {
+  background-color: #eb6864;
+}
+
+/* Nav links */
+.blog-nav-item {
+  color: #fff;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  background-color: #e74b47;
+  text-decoration: none;
+}
+
+.blog-nav .active {
+  color: #fff;
+  background-color: #e74b47;
+}
+
+/* margin at bottom is not really needed because of the padding being already present. */
+.sidebar-module {
+	margin-bottom: 0px;
+}
+
+.sidebar-module.social a,
+.sidebar-module.blogroll a {
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+.sidebar-module.social a[type$='atom+xml'],
+.sidebar-module.social a[type$='rss+xml'] {background-image: url('../images/icons/feed.png');}
+.sidebar-module.social a[href*='bitbucket.org'] {background-image: url('../images/icons/bitbucket.png');}
+.sidebar-module.social a[href*='github.com'],
+.sidebar-module.social a[href*='git.io'] {background-image: url('../images/icons/github.png');}
+
+.sidebar-module.blogroll a { background-image: url('../images/icons/blog.png'); }
+
+
+/* for some reason, this setting is overwritten somewhere in the generated css files for the theme, so I have to set it
+ * again here.*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+{
+  font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #000000;
+}

@@ -1,0 +1,4 @@
+Sitemap: https://alacarte-maps.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: alacarte-maps.github.io

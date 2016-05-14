@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet href="https://alacarte-maps.github.io/assets/xml/atom.xsl" type="text/xsl media="all"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom">
+  <title>Posts about announcements</title>
+  <id>https://alacarte-maps.github.io/categories/announcements.atom</id>
+  <updated>2016-05-14T17:38:45Z</updated>
+  <author>
+    <name>alaCarte Maps</name>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://alacarte-maps.github.io/categories/announcements.atom"/>
+  <link rel="alternate" type="text/html" href="https://alacarte-maps.github.io/categories/announcements.html"/>
+  <generator uri="https://getnikola.com/">Nikola</generator>
+  <entry>
+    <title>New Website and upcoming 0.4 Release</title>
+    <id>https://alacarte-maps.github.io/posts/new-website-upcoming-0.4-release.html</id>
+    <updated>2016-05-14T19:15:51+02:00</updated>
+    <published>2016-05-14T19:15:51+02:00</published>
+    <author>
+      <name>Florian Jacob</name>
+    </author>
+    <link rel="alternate" type="text/html" href="https://alacarte-maps.github.io/posts/new-website-upcoming-0.4-release.html"/>
+    <summary type="html">&lt;div&gt;&lt;p&gt;alaCarte's website was really getting a little outdated and rusty, and instead of updating all the broken things, I
+decided to try &lt;a href="https://getnikola.com/"&gt;nikola&lt;/a&gt;, another static site generator written in python, but which seems to have more momentum
+compared to &lt;a href="http://blog.getpelican.com/"&gt;pelican&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This was done in preparation of the upcoming 0.4 release of alaCarte. In the last few years, quite a few number of
+changes built up and we want to release them as soon as the switch to the upstream dir_monitor library is completed. See
+the &lt;a href="https://github.com/alacarte-maps/alacarte/blob/master/CHANGELOG.md"&gt;changelog&lt;/a&gt; for a preview of what you can expect in alaCarte 0.4.&lt;/p&gt;
+&lt;p&gt;As before, if you want to correct or contribute something to the website, you can do so at the
+&lt;a href="https://github.com/alacarte-maps/alacarte-maps.github.io/tree/source"&gt;website source repository&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</summary>
+    <category term="announcements" label="announcements"/>
+  </entry>
+</feed>
