@@ -6,7 +6,7 @@
 .. author: Florian Jacob
 .. description: Today the first fully open source developed version of alaCarte was released.
 
-After a long time since the last release, the 0.3.0 release has seen a lot of work.
+After a long time since the last release, the `0.3.0`_ release has seen a lot of work.
 
 Highlights of the new version:
 
@@ -23,3 +23,4 @@ Especially thanks to `Dmitry "AMDmi3" Marakasov`_ for his work on extending the 
 
 .. _`Mixaill`: http://github.com/Mixaill
 
+.. _`0.3.0 release`: https://github.com/alacarte-maps/alacarte/releases/tag/v0.3.0
