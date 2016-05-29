@@ -4,15 +4,14 @@
 .. tags: releases
 .. author: Florian Jacob
 .. lang: en
-.. link: https://github.com/alacarte-maps/alacarte/releases/tag/v0.2.1
-.. description: Today we published alaCarte, our student lab course project we worked countless hours on in the last semester,
-   as open source software.
 
 .. figure:: /images/screenshot.thumbnail.png
    :target: /images/screenshot.png
    :class: thumbnail
    :alt: AlaCarte Screenshot
 
+Today we published `alaCarte version 0.2.1`_, our student lab course project we worked countless hours on in the last semester,
+as open source software.
 
 What is alaCarte?
 =================
@@ -31,8 +30,10 @@ We have a `live demo`_, you can check out the code at `github`_ and if you speak
 `finishing presentation`_ of the project.
 
 
-.. _`live demo`: http://studwww.ira.uni-karlsruhe.de/~s_scheir/alacarte/
+.. _`live demo`: http://alacarte.simon-dreher.de
 
 .. _`github`: https://github.com/alacarte-maps/alacarte
 
 .. _`finishing presentation`: http://studwww.ira.uni-karlsruhe.de/~s_scheir/alacarte/abschlusspraesentation
+
+.. _`alaCarte version 0.2.1`: https://github.com/alacarte-maps/alacarte/releases/tag/v0.2.1
