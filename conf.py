@@ -134,7 +134,7 @@ NAVIGATION_LINKS = {
         ("http://alacarte.simon-dreher.de/", "Live Demo"),
         ("https://github.com/alacarte-maps/alacarte", "Source Code"),
         ("https://github.com/alacarte-maps/alacarte#how-to-build", "Install Guide"),
-        ("https://alacarte-maps.github.io/alacarte/", "Developer Documentation"),
+        ("https://alacarte-maps.github.io/alacarte/documentation", "Developer Documentation"),
         ("/stories/contact.html", "Contact"),
     ),
 }
