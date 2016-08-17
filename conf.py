@@ -131,7 +131,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Home"),
         ("/stories/about.html", "About"),
-        ("http://alacarte.simon-dreher.de/", "Live Demo"),
+        ("/stories/demo.html", "Live Demo"),
         ("https://github.com/alacarte-maps/alacarte", "Source Code"),
         ("https://github.com/alacarte-maps/alacarte#how-to-build", "Install Guide"),
         ("https://alacarte-maps.github.io/alacarte/documentation", "Developer Documentation"),
