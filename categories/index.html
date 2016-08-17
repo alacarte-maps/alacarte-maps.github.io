@@ -8,7 +8,14 @@ article: http://ogp.me/ns/article#
 <meta name="description" content="Tags">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tags | alaCarte Maps</title>
-<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/blog.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/custom.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css">
 <link rel="alternate" type="application/atom+xml" title="Atom" href="../index.atom">
 <link rel="canonical" href="https://alacarte-maps.github.io/categories/index.html">
 <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
@@ -23,7 +30,7 @@ article: http://ogp.me/ns/article#
 <!-- This keeps the margins nice -->
         <nav class="blog-nav" role="navigation"><a href="../index.html" class="blog-nav-item">Home</a>
             <a href="../stories/about.html" class="blog-nav-item">About</a>
-            <a href="http://alacarte.simon-dreher.de/" class="blog-nav-item">Live Demo</a>
+            <a href="../stories/demo.html" class="blog-nav-item">Live Demo</a>
             <a href="https://github.com/alacarte-maps/alacarte" class="blog-nav-item">Source Code</a>
             <a href="https://github.com/alacarte-maps/alacarte#how-to-build" class="blog-nav-item">Install Guide</a>
             <a href="https://alacarte-maps.github.io/alacarte/documentation" class="blog-nav-item">Developer Documentation</a>
@@ -110,7 +117,13 @@ Content License:
 <img alt="Creative Commons License BY-SA" style="border-width:0" src="../assets/images/cc-by-sa-80x15.png"></a>
 
     
-</footer><script src="../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+</footer><script src="../assets/js/jquery.min.js"></script><script src="../assets/js/bootstrap.min.js"></script><script src="../assets/js/moment-with-locales.min.js"></script><script src="../assets/js/fancydates.js"></script><script src="../assets/js/jquery.colorbox-min.js"></script><script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script><script>
+    var mymap = L.map('mapid').setView([49.001, 8.405], 14);
+    L.tileLayer('http://tiles.simon-dreher.de/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://alacarte-maps.github.org">alaCarte</a>',
+        maxZoom: 18,
+    }).addTo(mymap);
+    </script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates --><!-- Piwik --><script type="text/javascript">
