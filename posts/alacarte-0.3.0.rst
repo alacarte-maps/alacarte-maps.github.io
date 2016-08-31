@@ -6,7 +6,7 @@
 .. author: Florian Jacob
 .. description: Today the first fully open source developed version of alaCarte was released.
 
-After a long time since the last release, the `0.3.0`_ release has seen a lot of work.
+After a long time since the last release, the `0.3.0 release`_ has seen a lot of work.
 
 Highlights of the new version:
 
