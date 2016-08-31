@@ -10,10 +10,9 @@
 .. author: Florian Jacob
 -->
 
-After ten months of downtime, our [Live Demo](/stories/demo.html) is finally up and running
-again!
+After ten months of downtime, our [Live Demo](/stories/demo.html) is finally up and running again!
 
-Because of the awesome work of Simon Dreher, who not only fixed his server but also made it publicly available again,
+Because of the awesome work of Simon Dreher, who not only fixed his server but also made it publicly available,
 everyone can have a fresh look at alaCarte now, in all it's beauty. 😊
 
 The server runs a pre-release version of alaCarte 0.4 and will be upgraded to our
