@@ -8,17 +8,11 @@ article: http://ogp.me/ns/article#
 <meta name="description" content="an OpenStreetMap tile renderer">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>alaCarte Maps | alaCarte Maps</title>
-<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="assets/css/rst.css" rel="stylesheet" type="text/css">
-<link href="assets/css/code.css" rel="stylesheet" type="text/css">
-<link href="assets/css/colorbox.css" rel="stylesheet" type="text/css">
-<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
-<link href="assets/css/blog.css" rel="stylesheet" type="text/css">
-<link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+<link href="assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css">
 <link rel="alternate" type="application/atom+xml" title="Atom" href="index.atom">
 <link rel="canonical" href="https://alacarte-maps.github.io/index.html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/new-website-upcoming-0.4-release.html" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/live-demo-is-live-again.html" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -61,7 +55,22 @@ article: http://ogp.me/ns/article#
         <div class="row">
             <div class="col-sm-8 blog-main">
 <div class="postindex">
-    <article class="blog-post h-entry post-text"><header><h2 class="p-name entry-title blog-post-title"><a href="posts/new-website-upcoming-0.4-release.html" class="u-url">New Website and upcoming 0.4 Release</a></h2>
+    <article class="blog-post h-entry post-text"><header><h2 class="p-name entry-title blog-post-title"><a href="posts/live-demo-is-live-again.html" class="u-url">Live Demo is live again!</a></h2>
+        <div class="metadata blog-post-meta">
+            <p class="byline author vcard"><span class="byline-name fn">Florian Jacob</span></p>
+            <p class="dateline"><a href="posts/live-demo-is-live-again.html" rel="bookmark"><time class="published dt-published" datetime="2016-08-31T14:18:03+02:00" title="2016-08-31 14:18">2016-08-31 14:18</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>After ten months of downtime, our <a href="stories/demo.html">Live Demo</a> is finally up and running
+again!</p>
+<p>Because of the awesome work of Simon Dreher, who not only fixed his server but also made it publicly available again,
+everyone can have a fresh look at alaCarte now, in all it's beauty. 😊</p>
+<p>The server runs a pre-release version of alaCarte 0.4 and will be upgraded to our
+upcoming Arch Linux AUR package when the next stable version is released.</p>
+</div>
+    </div>
+    </article><article class="blog-post h-entry post-text"><header><h2 class="p-name entry-title blog-post-title"><a href="posts/new-website-upcoming-0.4-release.html" class="u-url">New Website and upcoming 0.4 Release</a></h2>
         <div class="metadata blog-post-meta">
             <p class="byline author vcard"><span class="byline-name fn">Florian Jacob</span></p>
             <p class="dateline"><a href="posts/new-website-upcoming-0.4-release.html" rel="bookmark"><time class="published dt-published" datetime="2016-05-14T19:15:51+02:00" title="2016-05-14 19:15">2016-05-14 19:15</time></a></p>
@@ -184,8 +193,11 @@ Content License:
 <img alt="Creative Commons License BY-SA" style="border-width:0" src="assets/images/cc-by-sa-80x15.png"></a>
 
     
-</footer><script src="assets/js/jquery.min.js"></script><script src="assets/js/bootstrap.min.js"></script><script src="assets/js/moment-with-locales.min.js"></script><script src="assets/js/fancydates.js"></script><script src="assets/js/jquery.colorbox-min.js"></script><script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script><script>
-    var mymap = L.map('mapid').setView([49.001, 8.405], 14);
+</footer><script src="assets/js/all-nocdn.js"></script><script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script><script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script><link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet">
+<script>
+    var mymap = L.map('mapid', {
+        fullscreenControl: { pseudoFullscreen: true } }
+        ).setView([49.001, 8.405], 14);
     L.tileLayer('http://tiles.simon-dreher.de/{z}/{x}/{y}.png', {
         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://alacarte-maps.github.org">alaCarte</a>',
         maxZoom: 18,
