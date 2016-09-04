@@ -3,13 +3,29 @@
 <feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom">
   <title>Posts about announcements</title>
   <id>https://alacarte-maps.github.io/categories/announcements.atom</id>
-  <updated>2016-05-14T17:38:45Z</updated>
+  <updated>2016-09-04T14:46:01Z</updated>
   <author>
     <name>alaCarte Maps</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alacarte-maps.github.io/categories/announcements.atom"/>
   <link rel="alternate" type="text/html" href="https://alacarte-maps.github.io/categories/announcements.html"/>
   <generator uri="https://getnikola.com/">Nikola</generator>
+  <entry>
+    <title>Live Demo is live again!</title>
+    <id>https://alacarte-maps.github.io/posts/live-demo-is-live-again.html</id>
+    <updated>2016-08-31T14:18:03+02:00</updated>
+    <published>2016-08-31T14:18:03+02:00</published>
+    <author>
+      <name>Florian Jacob</name>
+    </author>
+    <link rel="alternate" type="text/html" href="https://alacarte-maps.github.io/posts/live-demo-is-live-again.html"/>
+    <summary type="html">&lt;div&gt;&lt;p&gt;After ten months of downtime, our &lt;a href="https://alacarte-maps.github.io/stories/demo.html"&gt;Live Demo&lt;/a&gt; is finally up and running again!&lt;/p&gt;
+&lt;p&gt;Because of the awesome work of Simon Dreher, who not only fixed his server but also made it publicly available,
+everyone can have a fresh look at alaCarte now, in all it's beauty. 😊&lt;/p&gt;
+&lt;p&gt;The server runs a pre-release version of alaCarte 0.4 and will be upgraded to our
+upcoming Arch Linux AUR package when the next stable version is released.&lt;/p&gt;&lt;/div&gt;</summary>
+    <category term="announcements" label="announcements"/>
+  </entry>
   <entry>
     <title>New Website and upcoming 0.4 Release</title>
     <id>https://alacarte-maps.github.io/posts/new-website-upcoming-0.4-release.html</id>
@@ -20,11 +36,11 @@
     </author>
     <link rel="alternate" type="text/html" href="https://alacarte-maps.github.io/posts/new-website-upcoming-0.4-release.html"/>
     <summary type="html">&lt;div&gt;&lt;p&gt;alaCarte's website was really getting a little outdated and rusty, and instead of updating all the broken things, I
-decided to try &lt;a href="https://getnikola.com/"&gt;nikola&lt;/a&gt;, another static site generator written in python, but which seems to have more momentum
-compared to &lt;a href="http://blog.getpelican.com/"&gt;pelican&lt;/a&gt;.&lt;/p&gt;
+decided to try &lt;a href="https://getnikola.com/"&gt;nikola&lt;/a&gt;. It's yet another static site generator written in python, but it currently seems to have more
+momentum than &lt;a href="http://blog.getpelican.com/"&gt;pelican&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This was done in preparation of the upcoming 0.4 release of alaCarte. In the last few years, quite a few number of
-changes built up and we want to release them as soon as the switch to the upstream dir_monitor library is completed. See
-the &lt;a href="https://github.com/alacarte-maps/alacarte/blob/master/CHANGELOG.md"&gt;changelog&lt;/a&gt; for a preview of what you can expect in alaCarte 0.4.&lt;/p&gt;
+changes have built up and we want to release them as soon as the switch to the upstream dir_monitor library is
+completed. See the &lt;a href="https://github.com/alacarte-maps/alacarte/blob/master/CHANGELOG.md"&gt;changelog&lt;/a&gt; for a preview of what you can expect in alaCarte 0.4.&lt;/p&gt;
 &lt;p&gt;As before, if you want to correct or contribute something to the website, you can do so at the
 &lt;a href="https://github.com/alacarte-maps/alacarte-maps.github.io/tree/source"&gt;website source repository&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</summary>
     <category term="announcements" label="announcements"/>
