@@ -122,10 +122,15 @@ Content License:
     var mymap = L.map('mapid', {
         fullscreenControl: { pseudoFullscreen: true } }
         ).setView([49.001, 8.405], 14);
-    L.tileLayer('http://tiles.simon-dreher.de/{z}/{x}/{y}.png', {
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://alacarte-maps.github.org">alaCarte</a>',
-        maxZoom: 18,
-    }).addTo(mymap);
+    var layers = {
+        'Default': L.tileLayer('http://tiles.simon-dreher.de/{z}/{x}/{y}.png', {
+            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://alacarte-maps.github.org">alaCarte</a>',
+            maxZoom: 18}).addTo(mymap),
+        'Wire': L.tileLayer('http://tiles.simon-dreher.de/wire/{z}/{x}/{y}.png', {
+            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://alacarte-maps.github.org">alaCarte</a>',
+            maxZoom: 18})
+        };
+    L.control.layers(layers, {}).addTo(mymap);
     </script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
