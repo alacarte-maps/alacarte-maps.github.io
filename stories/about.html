@@ -7,13 +7,7 @@ article: http://ogp.me/ns/article#
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>About alaCarte | alaCarte Maps</title>
-<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
-<link href="../assets/css/code.css" rel="stylesheet" type="text/css">
-<link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css">
-<link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
-<link href="../assets/css/blog.css" rel="stylesheet" type="text/css">
-<link href="../assets/css/custom.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css">
 <link rel="alternate" type="application/atom+xml" title="Atom" href="../index.atom">
 <link rel="canonical" href="https://alacarte-maps.github.io/stories/about.html">
@@ -73,19 +67,19 @@ The rendered tiles are served over HTTP using the Slippy map tilenam">
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
 <p>alaCarte is a tile renderer for OpenStreetMap data written in C++11, using Cairo for
-rendering and Boost-Spirit for <a href="http://wiki.openstreetmap.org/wiki/MapCSS">MapCSS</a> parsing.</p>
-<p>The rendered tiles are served over HTTP using the <a href="http://wiki.openstreetmap.org/wiki/Slippy_map_tilenames">Slippy map tilename</a> convention.</p>
+rendering and Boost-Spirit for <a href="https://wiki.openstreetmap.org/wiki/MapCSS">MapCSS</a> parsing.</p>
+<p>The rendered tiles are served over HTTP using the <a href="https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames">Slippy map tilenames</a> convention.</p>
 <p>To compute which data is needed for rendering a tile, alaCarte uses a variant of
-a kd-Tree.</p>
+a STR-Tree.</p>
 <p>alaCarte was designed with medium dataset size in mind. On a typical machine with
 at leat 8GB RAM, alaCarte can handle a unfiltered export from the federal state
 of Baden-Wuerttemberg (Germany).</p>
-<p>alaCarte was developed as part of a software project at <a href="http://algo2.iti.kit.edu">KIT</a>.
-For the old project files (mostely in German) see the <a href="https://bitbucket.org/TheMarex/alacarte">old project repository</a>.</p>
+<p>alaCarte was developed as part of a lab course student software project at <a href="https://algo2.iti.kit.edu">KIT</a>.
+For the old project files (mostly in German), see the <a href="https://bitbucket.org/TheMarex/alacarte">old project repository</a>.</p>
 <h3>Features</h3>
 <ul>
 <li>easy to use</li>
-<li>most MapCSS attributes are implemented</li>
+<li>most MapCSS attributes are implemented (see <a href="https://wiki.openstreetmap.org/wiki/MapCSS/0.2#Vocabulary">MapCSS wiki page</a> for comparison)</li>
 <li>no need to filter OSM exports, you have full access to all attributes at runtime</li>
 <li>stylesheets are updated at runtime (changes are detected automatically)</li>
 <li>tiles can be rendered in groups ("meta tile") to speed up rendering</li>
@@ -146,7 +140,7 @@ Content License:
 <img alt="Creative Commons License BY-SA" style="border-width:0" src="../assets/images/cc-by-sa-80x15.png"></a>
 
     
-</footer><script src="../assets/js/jquery.min.js"></script><script src="../assets/js/bootstrap.min.js"></script><script src="../assets/js/moment-with-locales.min.js"></script><script src="../assets/js/fancydates.js"></script><script src="../assets/js/jquery.colorbox-min.js"></script><script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script><script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script><link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet">
+</footer><script src="../assets/js/all-nocdn.js"></script><script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script><script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script><link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet">
 <script>
     var mymap = L.map('mapid', {
         fullscreenControl: { pseudoFullscreen: true } }
